@@ -1,0 +1,15 @@
+# data map is key: value form <- there is a single space after colon(:)
+# key:value(WRONG) key: value(RIGHT)
+# array is using -
+# comment is using #
+# true/false or yes/no
+# number without " " is number
+# text needs to be wrapped with " " <- especially when the colon is included in the text
+humanoid:
+  raibertGain: 10.0
+  bodyheight: 0.75
+  footstepheight: 0.06
+  vcGainKpKd:
+    - 400
+    - 40
+  costGains: [1e5, 1e3, 1e1]
