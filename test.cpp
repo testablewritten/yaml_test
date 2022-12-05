@@ -4,7 +4,7 @@
 // #include <yaml-cpp/parser.h>
 // #include <yaml-cpp/node/node.h>
 
-int main(int argc, char **argv){
+int main(int argc, char* argv[]){
 
     const std::string yaml_dir = YAML_DIR + std::string("/param.yaml");
 
