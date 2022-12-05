@@ -17,8 +17,8 @@ int main(int argc, char* argv[]){
     auto vcGainKpKd = humanoidparam["vcGainKpKd"].as< std::vector<double> >();
     auto costGains = humanoidparam["costGains"].as< std::vector<double> >();
 
-    double *vcGainKpKd_arr;
-    double *vcGainKpKd_arr_comp;
+    double* vcGainKpKd_arr;
+    double* vcGainKpKd_arr_comp;
 
     //mapping total vector to total array
     vcGainKpKd_arr = vcGainKpKd.data();
